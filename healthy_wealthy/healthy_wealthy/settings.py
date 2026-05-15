@@ -47,7 +47,9 @@ INSTALLED_APPS = [
     'meal_table',
     'profiles',
     'corsheaders',
+    'rest_framework',
 ]
+
 AUTH_USER_MODEL = 'accounts.User'
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
