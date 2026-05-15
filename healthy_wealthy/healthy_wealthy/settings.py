@@ -41,14 +41,14 @@ INSTALLED_APPS = [
     'tracking_',
     'streak',
     'payements',
-    'diet_plans',
+    'diet_plan',
     'meals',
     'health',
     'meal_table',
     'profiles',
     'corsheaders',
 ]
-
+AUTH_USER_MODEL = 'accounts.User'
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
